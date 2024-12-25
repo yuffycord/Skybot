@@ -1,6 +1,5 @@
 {
     "bot": {
-        "token": "",
         "owner_discord_id": 0,
         "admin_role_id": 0,
         "ai_chat": false,

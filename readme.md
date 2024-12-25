@@ -1,8 +1,20 @@
-# Skyblock Value Bot
+# Skybot Fix
 
-- This bot is fairly simple, all you need to do is insert a bot token into the config.json file and type python3 start.py
+APIで401が出る問題を修正したSkybotです。401エラーが出る人は試してみてください。
 
-# Documentation:
+## 使い方
 
-**The configuration file has scale factor values, not all are scale factor so pay attention to the ones that have different values.**
-**If you dislike the pricing in one aspect, increase/lower the scale factor until you agree with the value**
+```sh
+git clone https://github.com/yuffycord/Skybot
+cd Skybot
+pip install -r requirements.txt
+python start.py
+```
+> [!WARNING]
+> SkybotAIO のレポジトリにあるrequirements.txt使ったらpy-cordのバージョンの関係でエラー吐くのでこっち使ってください
+
+## Skybotとの違い
+
+- [x] sky.shiiyu.moe の API で 401 が出る問題を修正
+- [x] value コマンド以外を削除
+- [x] requirements.txt の py-cord のバージョンを修正  
